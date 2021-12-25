@@ -62,13 +62,12 @@ li{
     height: 80px;
 }
 .nav_bar{
-    padding: 5px 0;
     background-color: #fff;
-    box-shadow: 0 0 5px rgb(168, 167, 167);
+    /* box-shadow: 0 0 5px rgb(168, 167, 167); */
 }
 .fixed-top{
-    /* background-color: rgb(253, 253, 253); */
-    transition: all .6s;
+    box-shadow: 0 0 5px rgb(168, 167, 167);
+    transition: .2s;
 }
 .navbar-nav .nav-link{
     font-size: 17px;
@@ -185,6 +184,62 @@ code{
 }
 .fa-user-graduate, .fa-graduation-cap{
     font-size: 30px;
+}
+
+.progress-div{
+    width: 100%;
+    background-color: rgb(226, 226, 226);
+}
+.progress-line{
+    height: 4px;
+    background-color: var(--color-Primary);
+}
+.accor-content{
+    margin-bottom: 25px;
+}
+.fa-server, .fa-clone, .fa-file-code{
+    font-size: 27px;
+    color: var(--color-Primary);
+    padding-right: 20px;
+}
+.accor-h-right h2{
+    font-size: 20px;
+    text-transform: none;
+    font-weight: 600;
+    letter-spacing: normal;
+    line-height: 1;
+    color: rgb(24, 24, 24);
+}
+.accor-h-right p{
+    font-size: 20px;
+    line-height: 1;
+    font-weight: 400;
+    color: gray;
+}
+.accor-content h2{
+    font-size: 17px;
+    text-transform: capitalize;
+    color: rgb(24, 24, 24);
+}
+.accordion-body{
+    margin-left: 45px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.accordion-item{
+    border: none;
+    border-radius: 5px;
+    background-color: transparent;
+}
+.accordion-button{
+    background-color: transparent !important;
+    border: none !important;
+    outline: none !important;
+}
+.accordion-button:hover{
+    box-shadow: 0 0 10px rgb(240, 240, 240);
+    border-radius: 5px;
 }
 
 
