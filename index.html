@@ -56,7 +56,7 @@
                     <div class="col-12 col-lg-5 header-left text-center">
                         <div class="header-left-content">
                             <img src="assets/img/logo.png" class="img-fluid rounded-pill pb-4" width="200px" height="200px" alt="">
-                            <h1 class="text-uppercase">Nayan Ch. Datta</h1>
+                            <h1 class="text-uppercase">Nayan <span class="type-anim primary-color"></span></h1>
                             <h3>Front-end Web Developer</h3>
                             <h4>Analytical, self-motivating and confident.</h4>
 
@@ -354,7 +354,23 @@
 
 
 
+
+
     <script src="bootstrap/bootstrap.min.js"></script>
     <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script>
+        var typed = new Typed('.type-anim', {
+            strings: ['CHANDRA', 'DATTA', 'CH. DATTA'],
+
+            typeSpeed: 140, 
+            backSpeed: 50,
+            startDelay: 30,
+            loop: true,
+            loopCount: Infinity,
+            smartBackspace: true,
+        });
+    </script>
 </body>
 </html>
