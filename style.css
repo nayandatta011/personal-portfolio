@@ -52,9 +52,16 @@ li{
 .fa-align-right{
     font-size: 30px;
 }
+#nav_bar{
+    height: 80px;
+}
 .nav_bar{
-    padding: 10px 0;
+    padding: 5px 0;
     box-shadow: 0 0 5px rgb(168, 167, 167);
+}
+.fixed-top{
+    background-color: rgb(253, 253, 253);
+    transition: all .4s;
 }
 .navbar-nav .nav-link{
     font-size: 17px;
@@ -62,6 +69,9 @@ li{
     color: rgb(20, 20, 20);
     padding-right: 15px !important;
     display: inline-block;
+}
+.nav-link.active{
+    color: var(--color-Primary);
 }
 .navbar-nav .nav-link::after{
     content: '';
@@ -262,7 +272,7 @@ code{
 
 @media screen and (min-width: 992px) {
     .header-content{
-        height: 95vh;
+        height: calc(100vh - 80px);
     }
     .experience-section{
         height: 100vh;
